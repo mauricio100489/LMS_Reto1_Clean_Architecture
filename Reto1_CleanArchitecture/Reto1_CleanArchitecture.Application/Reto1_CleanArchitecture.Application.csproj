@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reto1_CleanArchitecture.Domain\Reto1_CleanArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\Reto1_CleanArchitecture.Infrastructure\Reto1_CleanArchitecture.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
